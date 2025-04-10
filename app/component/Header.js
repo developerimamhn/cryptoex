@@ -132,9 +132,24 @@ const Header = () => {
 </linearGradient>
 </defs>
             </svg>
-
             <NavBar/>
             <HeroPage/>
+            <div  className='xl:flex items-center justify-between maringpriceingsec py-[20px] sm:py-[24px] md:py-[32px] lg:py-[36px] xl:py-[40px] 2xl:py-[50px] px-[28px] sm:px-[36px] md:px-[40px] lg:px-[48px] xl:px-[64px] 2xl:px-[78px] mt-[32px] sm:mt-[36px] md:mt-[40px] lg:mt-[48px] xl:mt-[64px] 2xl:mt-[77px] w-full absolute hidden  xl:bottom-[80px] 2xl:bottom-[94px] container mx-auto left-1/2 -translate-x-1/2'>
+              <div className='flex flex-col items-center justify-center gap-[6px] md:gap-[9.4px]'>
+                <h2 className='locedmaring text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[31px]'>$2.82M Locked</h2>
+                <p className='projctsvalue text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[17.233px]'>985 projects</p>
+              </div>
+              <div className='linerone h-[32px] sm:h-[36px] md:h-[40px] lg:h-[48px] xl:h-[64px] 2xl:h-[97.133px]'></div>
+              <div className='flex flex-col items-center justify-center gap-[6px] md:gap-[9.4px]'>
+                <h2 className='locedmaring text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[31px]'>$2.82M Locked</h2>
+                <p className='projctsvalue text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[17.233px]'>985 projects</p>
+              </div>
+              <div className='linerone h-[32px] sm:h-[36px] md:h-[40px] lg:h-[48px] xl:h-[64px] 2xl:h-[97.133px]'></div>
+              <div className='flex flex-col items-center justify-center gap-[6px] md:gap-[9.4px]'>
+                <h2 className='locedmaring text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[31px]'>$2.82M Locked</h2>
+                <p className='projctsvalue text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[17.233px]'>985 projects</p>
+              </div>
+          </div>
         </div>
     );
 };

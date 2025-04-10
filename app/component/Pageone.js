@@ -152,7 +152,7 @@ const Pageone = () => {
     return (
         <div ref={wrapperRef} className='relative pb-[50px] sm:pb-[50px] md:pb-[60px] lg:pb-[90px] xl:pb-[110px] 2xl:pb-[141px]' id="smooth-wrapper">
             <div className='relative ' id="smooth-content">
-                <svg className='absolute left-0 top-1/2 -translate-y-1/2 w-full z-[1]' viewBox="0 0 633 1025" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className='absolute left-0 top-1/2 -translate-y-1/2 w-1/3 z-[1]' viewBox="0 0 633 1025" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_f_100_9244)">
                         <ellipse cx="84.8177" cy="512.183" rx="184.161" ry="148.709" fill="url(#paint0_linear_100_9244)"/>
                         </g>
@@ -351,7 +351,7 @@ const Pageone = () => {
                 </radialGradient>
                 </defs>
                 </svg>
-                    <div className='flex sm:flex-row flex-col items-center justify-center gap-[50px] sm:gap-[120px] md:gap-[150px] lg:gap-[180px] xl:gap-[220px] 2xl:gap-[250px]' id='BuyCRX'>
+                    <div className='flex sm:flex-row flex-col items-center justify-center gap-[50px] sm:gap-[120px] md:gap-[150px] lg:gap-[180px] xl:gap-[220px] 2xl:gap-[250px] relative-[2]' id='BuyCRX'>
                         <div className='flex-1'>
                             <div className="Frame13 self-stretch flex flex-col justify-start items-start relative z-[2]">
                                 <div className="TradeLikeAProWithXonicCapital text-[28px] sm:text-[36px] md:text-[40px] lg:text-[48px] xl:text-[64px] 2xl:text-[70px] !text-left">
@@ -372,20 +372,18 @@ const Pageone = () => {
                         <div className='flex-1 w-full flex flex-col items-start justify-end relative z-[2]'>
                             <div className='buycrxsecton flex items-start justify-start flex-col p-[13px] sm:p-[14px] md:p-[15px] lg:p-[16px] xl:p-[20px] 2xl:p-[25px] w-full'>
                                 <div className='grid grid-cols-2 gap-[4px] w-full'>
-                                <Link
-                                    href="#"
+                                <a
                                     onClick={() => handleLinkClick('/buy')}
-                                    className={`px-[10px] sm:px-[11px] md:px-[12px] lg:px-[13px] xl:px-[14px] 2xl:px-[15px] byeextraone text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center justify-center ${activeLink === '/buy' ? 'byeextra' : ''}`}
+                                    className={`px-[10px] sm:px-[11px] md:px-[12px] lg:px-[13px] xl:px-[14px] 2xl:px-[15px] byeextraone text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center justify-center cursor-pointer ${activeLink === '/buy' ? 'byeextra' : ''}`}
                                 >
                                     Buy
-                                </Link>
-                                <Link
-                                    href="#" 
+                                </a>
+                                <a
                                     onClick={() => handleLinkClick('/crx')}
-                                    className={`py-[10px] sm:py-[11px] md:py-[12px] lg:py-[13px] xl:py-[14px] 2xl:py-[15px] byeextraone text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] w-full flex items-center justify-center ${activeLink === '/crx' ? 'byeextra' : ''}`}
+                                    className={`py-[10px] sm:py-[11px] md:py-[12px] lg:py-[13px] xl:py-[14px] 2xl:py-[15px] byeextraone text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] w-full flex items-center justify-center cursor-pointer ${activeLink === '/crx' ? 'byeextra' : ''}`}
                                 >
                                     CRX
-                                </Link>
+                                </a>
                                 </div>
                                 <div className='value w-full'>
                                 {activeLink === '/buy' ? (

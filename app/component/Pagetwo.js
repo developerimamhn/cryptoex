@@ -169,11 +169,11 @@ const Pagetwo = () => {
         </defs>
         </svg>
             <div className="grid grid-cols-1 sm:grid-cols-2 relative z-[2] container mx-auto gap-[52px]">
-                <div>
-                    <div ref={titleRef} className="TradeLikeAProWithXonicCapital text-[28px] sm:text-[36px] md:text-[40px] lg:text-[48px] xl:text-[64px] 2xl:text-[70px] !text-left">
+                <div ref={titleRef}>
+                    <div  className="TradeLikeAProWithXonicCapital text-[28px] sm:text-[36px] md:text-[40px] lg:text-[48px] xl:text-[64px] 2xl:text-[70px] !text-left">
                     Tokenomics Without the Price Tag
                     </div>
-                    <div ref={descRef} className="InvestTodayBuildASecuredTomorrow text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] !text-left pt-[13px]  sm:pt-[15px] xl:pt-[18px] !leading-[160%]">50% of fees generated from services oon the CryptEx platform go directly to CRX Stakers upon CRX Staking launch</div>
+                    <div className="InvestTodayBuildASecuredTomorrow text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] !text-left pt-[13px]  sm:pt-[15px] xl:pt-[18px] !leading-[160%]">50% of fees generated from services oon the CryptEx platform go directly to CRX Stakers upon CRX Staking launch</div>
                     <div className='flex flex-col justify-between gap-[32.5px] relative mt-[36px] sm:mt-[40px] md:mt-[48px] lg:mt-[64px] xl:mt-[96px] 2xl:mt-[120px]'>
                     <svg width="2" className='h-full absolute left-1/2 -translate-x-1/2 top-0 sm:block hidden' viewBox="0 0 2 270" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line x1="1.30866" y1="0.475475" x2="1.30865" y2="269.942" stroke="url(#paint0_linear_1239_2380)" stroke-width="0.783333"/>
@@ -192,7 +192,7 @@ const Pagetwo = () => {
                     </linearGradient>
                     </defs>
                     </svg>
-                        <div className='grid grid-cols-1 sm:grid-cols-2 justify-between items-start gap-[25px] sm:gap-[30px] md:gap-[36px] lg:gap-[40px] xl:gap-[50px] 2xl:gap-[65px]' ref={gridItem1Ref}>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 justify-between items-start gap-[25px] sm:gap-[30px] md:gap-[36px] lg:gap-[40px] xl:gap-[50px] 2xl:gap-[65px]'>
                             <div>
                                 <div  className='flex itesm-center justify-start gap-[6.27]'>
                                     <Image className='w-[15px] sm:w-[16px] md:w-[20px] lg:w-[24px] xl:w-[32px] 2xl:w-[37.6px] h-[15px] sm:h-[16px] md:h-[20px] lg:h-[24px] xl:h-[32px] 2xl:h-[37.6px]' src={image2} alt=""/>
@@ -202,7 +202,7 @@ const Pagetwo = () => {
                             </div>
                             <div>
                                 <div>
-                                    <div ref={gridItem2Ref} className='flex itesm-center justify-start gap-[6.27]'>
+                                    <div  className='flex itesm-center justify-start gap-[6.27]'>
                                         <Image className='w-[15px] sm:w-[16px] md:w-[20px] lg:w-[24px] xl:w-[32px] 2xl:w-[37.6px] h-[15px] sm:h-[16px] md:h-[20px] lg:h-[24px] xl:h-[32px] 2xl:h-[37.6px]' src={image3} alt=""/>
                                         <h3 className='stakingreas text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18.8px]'>CRX Payment Discounts</h3>
                                     </div>
@@ -221,7 +221,7 @@ const Pagetwo = () => {
                         </linearGradient>
                         </defs>
                         </svg>
-                        <div ref={gridItem3Ref} className='grid grid-cols-1 sm:grid-cols-2 justify-between items-start gap-[25px] sm:gap-[30px] md:gap-[36px] lg:gap-[40px] xl:gap-[50px] 2xl:gap-[65px]'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 justify-between items-start gap-[25px] sm:gap-[30px] md:gap-[36px] lg:gap-[40px] xl:gap-[50px] 2xl:gap-[65px]'>
                             <div>
                             <div>
                                 <div className='flex itesm-center justify-start gap-[6.27]'>
@@ -233,7 +233,7 @@ const Pagetwo = () => {
                             </div>
                             <div>
                             <div>
-                                <div ref={buttonRef} className='flex itesm-center justify-start gap-[6.27]'>
+                                <div className='flex itesm-center justify-start gap-[6.27]'>
                                     <Image className='w-[15px] sm:w-[16px] md:w-[20px] lg:w-[24px] xl:w-[32px] 2xl:w-[37.6px] h-[15px] sm:h-[16px] md:h-[20px] lg:h-[24px] xl:h-[32px] 2xl:h-[37.6px]' src={image5} alt=""/>
                                     <h3 className='stakingreas text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18.8px]'>CRX Access Requirement</h3>
                                 </div>
@@ -242,7 +242,7 @@ const Pagetwo = () => {
                             </div>
                         </div>
                     </div>
-                    <button ref={buttonRef} className='buttonaudit-3 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center h-[20px] sm:h-[24px] md:h-[32px] lg:h-[36px] xl:h-[40px] 2xl:h-[47px] pl-[13px] sm:pl-[14px] md:pl-[15px] lg:pl-[16px] xl:pl-[20px] 2xl:pl-[25px] pr-[7px] sm:pr-[8px] md:pr-[9px] lg:pr-[10px] xl:pr-[11px] 2xl:pr-[12px] gap-[7px] group transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 hover:shadow-md mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[46px]'>
+                    <button  className='buttonaudit-3 cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center h-[20px] sm:h-[24px] md:h-[32px] lg:h-[36px] xl:h-[40px] 2xl:h-[47px] pl-[13px] sm:pl-[14px] md:pl-[15px] lg:pl-[16px] xl:pl-[20px] 2xl:pl-[25px] pr-[7px] sm:pr-[8px] md:pr-[9px] lg:pr-[10px] xl:pr-[11px] 2xl:pr-[12px] gap-[7px] group transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 hover:shadow-md mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[46px]'>
                     Start Staking
                     <svg className='w-[14px] sm:w-[15px] 2xl:w-[23px] transition-transform duration-300 ease-in-out group-hover:translate-x-1' viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="0.283203" y="0.249634" width="21.9333" height="21.9333" rx="10.9667" fill="white"/>
